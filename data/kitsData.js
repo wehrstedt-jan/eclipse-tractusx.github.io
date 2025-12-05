@@ -73,6 +73,7 @@ import TraceabilityKitLogo from "@site/static/img/kits/traceability/traceability
 import DataChainKitLogo from "@site/static/img/kits/data-chain/data-chain-kit-raw-logo.svg";
 import EcoPassKitLogo from "@site/static/img/kits/eco-pass/eco-pass-kit-raw-logo.svg";
 import PCFKitLogo from "@site/static/img/kits/pcf/pcf-kit-raw-logo.svg";
+import CBAMKitLogo from "@site/static/img/kits/cbam-kit/cbam-kit-raw-logo.svg";
 import PurisKitLogo from "@site/static/img/kits/puris/puris-kit-raw-logo.svg";
 import DCMKitLogo from "@site/static/img/kits/demand-and-capacity-management/demand-and-capacity-management-kit-raw-logo.svg";
 import ESSKitLogo from "@site/static/img/kits/ess/ess-kit-raw-logo.svg";
@@ -405,6 +406,32 @@ export const kitsData = {
         created: '2023-08-23',
         lastUpdated: '2025-09-29',
         latestVersion: '1.3.0',
+        new: false
+      }
+    },
+    {
+      id: 'cbam',
+      name: 'PRODUCT CARBON FOOTPRINT KIT',
+      logo: CBAMKitLogo,
+      logoHeight: 120,
+      logoWidth: 120,
+      route: '/docs-kits/kits/cbam-kit/adoption-view',
+      colors: {
+        primary: '#368C7D',
+        gradient: 'linear-gradient(135deg, #66C791 0%, #368C7D 100%)'
+      },
+      maturity: {
+        currentLevel: 'Incubation',
+        graduationStatus: 'in review'
+      },
+      deprecated: false,
+      domain: 'Sustainability',
+      industries: ['automotive', 'shop-floor', 'construction', 'semiconductor'],
+      description: 'Mechanism for fair prices for carbon emissions from the production of carbon-intensive goods imported into the EU. ',
+      metadata: {
+        created: '2025-12-03',
+        lastUpdated: '2025-10-04',
+        latestVersion: '1.0.0',
         new: false
       }
     },
